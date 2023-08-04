@@ -1,0 +1,18 @@
+[
+    {
+        "reg": "\\/\\/(www.)?github\\.com",
+        "replace": "\\/\\/github.sakurapuare.com"
+    },
+    {
+        "reg": "(https?:\\/\\/)([^/]+)(\\.githubusercontent\\.com)(\\/.*)",
+        "replace": "$1github-usercontent.sakurapuare.com/$2$4"
+    },
+    {
+        "reg": "(https?:\\/\\/)([^/]+)(\\.githubassets\\.com)(\\/.*)",
+        "replace": "$1github-assets.sakurapuare.com/$2$4"
+    },
+    {
+        "reg": "\\/\\/api.github.com",
+        "replace": "\\/\\/github-api.sakurapuare.com"
+    }
+]

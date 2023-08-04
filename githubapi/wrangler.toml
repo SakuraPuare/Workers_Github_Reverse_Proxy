@@ -1,0 +1,16 @@
+name = "github-api"
+main = "src/index.ts"
+compatibility_date = "2023-08-04"
+usage_model = "bundled"
+env = { }
+
+kv_namespaces = [
+  { binding = "github", id = "c76bac7d94c347d0b5c26f4303c66f32", preview_id = "89bb80cd15884c9d9c69983a24d1fc0d" },
+]
+
+[placement]
+mode = "smart"
+
+[triggers]
+crons = [ ]
+
